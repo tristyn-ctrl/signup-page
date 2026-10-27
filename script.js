@@ -15,7 +15,7 @@ function sayHi() {
 sayHi();
 
 
-fucnction sayBye() {
+function sayBye() {
     console.log("Good-Bye!")
 }
 
