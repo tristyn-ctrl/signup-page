@@ -9,8 +9,15 @@ body {
 }
 
 h1 {
-    color:# pink; 
+    color: #ff1493;
 }
 h2 {
     color: yellowgreen;
+}
+
+.box {
+  margin: 40px 0;
+  border: 3px dashed magenta;
+  padding: 60px;
+  background-color: bisque;
 }
