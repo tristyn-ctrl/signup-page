@@ -1,0 +1,16 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 24px;
+  background-color: dodgerblue;
+}
+
+h1 {
+    color:# pink; 
+}
+h2 {
+    color: yellowgreen;
+}
