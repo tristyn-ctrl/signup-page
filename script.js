@@ -21,3 +21,12 @@ function sayBye() {
 
 sayBye();
 sayBye();
+
+let nextButton = document.querySelector("#next-btn");
+let nextMeeting = document.querySelector("#next-meeting");
+
+function showNextMeeting() {
+  nextMeeting.textContent = "Our next meeting is Wednesday";
+}
+
+nextButton.addEventListener("click", showNextMeeting);
