@@ -1,10 +1,10 @@
 console.log ("Hello from script.js!");
 
 let clubName = "Art & Design Club";
-console.log("Welcome to" + clubName);
+console.log("Welcome to " + clubName);
 
 let meetingDay = "Wednesdays";
-console.log("We meet every" + meetingDay);
+console.log("We meet every " + meetingDay);
 
 //Declare or define a function
 function sayHi() {
