@@ -39,7 +39,7 @@ input, select, textarea {
 }
 
 button {
-
+display: block;
   padding: 10px 20px;
   font: inherit;
 }
@@ -82,4 +82,21 @@ padding: 16px;
 
 .compare * {
 outline: 2px dashed tomato;
+}
+
+.hero {
+  background-color: rgba (0,100,0,0.85);
+  color: white;
+  padding: 64px 24px;
+  text-align: center;
+}
+
+.cta {
+  display: inline-block;
+  background: gold;
+  color: black;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
 }
