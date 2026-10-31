@@ -30,3 +30,12 @@ function showNextMeeting() {
 }
 
 nextButton.addEventListener("click", showNextMeeting);
+
+:root {
+  --brand: darkgreen;      /* make it */
+}
+
+h1 {
+  color: var(--brand);     /* use it */
+}
+
