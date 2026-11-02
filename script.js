@@ -31,11 +31,9 @@ function showNextMeeting() {
 
 nextButton.addEventListener("click", showNextMeeting);
 
-:root {
-  --brand: darkgreen;      /* make it */
-}
+let themeButton = document.querySelector("#theme-btn");
 
-h1 {
-  color: var(--brand);     /* use it */
+function toggleTheme() {
+  document.body.classList.toggle("dark");
 }
-
+themeButton.addEventListener("click", toggleTheme);
